@@ -105,7 +105,7 @@ export default function LyzaHome() {
           ))}
         </div>
         <p className='text-xs text-gray-500 dark:text-gray-400'>
-          Text will be copied when the checkbox is ticked
+          Text will be copied when the copy button is clicked!
         </p>
       </div>
     </div>
