@@ -46,7 +46,7 @@ export default function LyzaHome() {
   };
 
   return (
-    <div className='flex flex-col w-full items-center justify-center space-y-4 p-4'>
+    <div className='flex flex-col w-[100vw] items-center justify-center space-y-4 p-4'>
       <h1 className='text-3xl font-bold text-center'>Lyza.ai</h1>
       <div className='flex flex-col w-full space-y-2 items-center'>
         <div className='flex flex-col space-y-1 w-full items-center'>
@@ -86,11 +86,11 @@ export default function LyzaHome() {
           {textList.map((x, i) => (
             <div
               key={x}
-              className='flex flex-row justify-center gap-[200px] items-center' // Removed 'text-center'
+              className='flex flex-row justify-center gap-[120px] items-center' // Removed 'text-center'
             >
               <p
                 className={`text-sm leading-6 text-to-copy-${i}`}
-                style={{ width: "150px" }}
+                style={{ width: "100px" }}
               >
                 {x}
               </p>
