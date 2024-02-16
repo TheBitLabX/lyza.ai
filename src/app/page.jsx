@@ -86,7 +86,7 @@ export default function LyzaHome() {
           {textList.map((x, i) => (
             <div
               key={x}
-              className='flex flex-row justify-center gap-[120px] items-center' // Removed 'text-center'
+              className='flex flex-row justify-center gap-[120px] items-center'
             >
               <p
                 className={`text-sm leading-6 text-to-copy-${i}`}
